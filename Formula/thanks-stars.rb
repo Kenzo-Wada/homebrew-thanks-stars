@@ -1,20 +1,20 @@
 class ThanksStars < Formula
   desc "Star the GitHub repositories backing your project's dependencies from the command line."
   homepage "https://github.com/Kenzo-Wada/thanks-stars"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.2.0/thanks-stars-aarch64-apple-darwin.tar.gz"
-      sha256 "2fed7440073513945f6a278d3273f918a05f8d0af475cd3bd20b6b6931eb8ed0"
+      url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.3.0/thanks-stars-aarch64-apple-darwin.tar.gz"
+      sha256 "042833ae2bca9efe363dbaaa074936b1a0158759357240f719906070ddc50dd9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.2.0/thanks-stars-x86_64-apple-darwin.tar.gz"
-      sha256 "7d87350e618b8ad0fe740a272f7afa8ec5ece3d4923326df4de928e6d8f1f736"
+      url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.3.0/thanks-stars-x86_64-apple-darwin.tar.gz"
+      sha256 "45fc3fcf70399893af15230bdadbd6f62298e903bfed9cdd1ee4f925743ec46d"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.2.0/thanks-stars-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "24863f71810cfa94fc105f1d8a6c259cff46e0b48826c3f4577d50b8baf12553"
+    url "https://github.com/Kenzo-Wada/thanks-stars/releases/download/v0.3.0/thanks-stars-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "d04ef4b8fc19f60bf71fe8428433b228a2cafeb3dce5798fb97fb962c0abc3dd"
   end
   license "MIT"
 
